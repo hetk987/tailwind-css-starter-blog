@@ -12,6 +12,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@headlessui/react": "2.2.0",
     "@next/bundle-analyzer": "15.0.2",
     "@tailwindcss/forms": "^0.5.9",
@@ -29,8 +31,6 @@
     "next-themes": "^0.3.0",
     "pliny": "0.4.0",
     "postcss": "^8.4.24",
-    "react": "rc",
-    "react-dom": "rc",
     "reading-time": "1.5.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-citation": "^2.0.0",
@@ -77,6 +77,13 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@algolia/client-search": "^4.14.3",
+    "algoliasearch": "^4.14.3",
+    "@opentelemetry/api": "^1.4.1"
   },
   "packageManager": "yarn@3.6.1"
 }
